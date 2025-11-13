@@ -2,8 +2,6 @@
 
 Welcome to my personal website! It's pretty bare-bones, but it does the trick.
 
-Believe it or not, because I'm primarily a backend developer and want to learn more frontend, I am going to be writing this with very minimal amounts of AI generated code.
-
 Wish me luck :)
 ## Project Roadmap
 
