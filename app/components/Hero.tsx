@@ -1,28 +1,22 @@
 "use client";
 
-import { ArrowDown } from "lucide-react";
 import Image from "next/image";
+import Section from "./Section";
+import HoverScrollButton from "./HoverScrollButton";
 
 export default function Hero() {
-  const scrollToNext = () => {
-    const nextSection = document.getElementById("next-section");
-    if (nextSection) {
-      nextSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
 
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 pt-32 pb-24">
+    <Section id="hero" className="relative flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 pt-32 pb-24">
       <div className="max-w-xl space-y-6">
         <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">
-          Alex Ruddell
+          Kia Ora, I'm Alex
         </h1>
 
         <p className="text-gray-700 text-lg leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          ultricies, nunc id feugiat placerat, enim sapien elementum orci, id
-          tristique metus lorem in nunc. Integer varius, massa sed consequat
-          consequat, eros purus pretium leo, nec varius augue magna vel risus.
+          {/* TODO: Write a better description. */}
+          Alex Ruddell is Backend Software Engineer hailing from Auckland, New Zealand. After obtaining a Bachelor of Mechatronics Engineering at the end of
+          2021, Alex transitioned into the world of software engineering.
         </p>
       </div>
 
@@ -39,19 +33,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <button
-        onClick={scrollToNext}
-        aria-label="Scroll to next section"
-        className="
-          absolute left-1/2 bottom-6 
-          transform -translate-x-1/2 
-          bg-white border border-gray-300 shadow-lg 
-          p-3 rounded-full 
-          hover:bg-gray-100 transition
-        "
-      >
-        <ArrowDown className="w-6 h-6 text-gray-700" />
-      </button>
-    </section>
+      <HoverScrollButton scrollToId="about-section" />
+    </Section>
   );
 }

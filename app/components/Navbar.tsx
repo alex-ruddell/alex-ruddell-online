@@ -10,37 +10,50 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
         <div className="text-xl font-semibold text-gray-800">
-          <Link href="/">MySite</Link>
+          <Link href="#hero">Alex Ruddell</Link>
         </div>
 
-        {/* Desktop Nav */}
         <div className="hidden md:flex items-center space-x-6">
-          <Link href="#" className="text-gray-700 hover:text-blue-600 transition">Link 1</Link>
-          <Link href="#" className="text-gray-700 hover:text-blue-600 transition">Link 2</Link>
-          <Link href="#" className="text-gray-700 hover:text-blue-600 transition">Link 3</Link>
+          <Link 
+            href="#about-section" 
+            className="text-gray-700"
+          >
+            About
+          </Link>
+          <Link 
+            href="#contact-section" 
+            className="text-gray-700"
+          >
+            Contact
+          </Link>
+          <Link 
+            href="./alexruddell.pdf" 
+            download="alexruddell.pdf" 
+            className="text-gray-700"
+          >
+            Résumé
+          </Link>
 
           <a
-            href="https://github.com"
+            href="https://github.com/alex-ruddell"
             target="_blank"
-            className="text-gray-700 hover:text-blue-600 transition"
+            className="text-gray-700 transition"
           >
             <Github className="w-5 h-5" />
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/alexrsruddell/"
             target="_blank"
-            className="text-gray-700 hover:text-blue-600 transition"
+            className="text-gray-700 transition"
           >
             <Linkedin className="w-5 h-5" />
           </a>
         </div>
 
-        {/* Mobile Button */}
         <button
-          className="md:hidden text-gray-700 hover:text-blue-600 transition"
+          className="md:hidden text-gray-700"
           onClick={() => setOpen(!open)}
           aria-label="Toggle Menu"
         >
@@ -48,42 +61,42 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-white border-t border-gray-200 shadow-inner">
           <div className="flex flex-col px-6 py-4 space-y-4">
             <Link
-              href="#"
-              className="text-gray-700 hover:text-blue-600 transition"
+              href="#about-section"
+              className="text-gray-700"
               onClick={() => setOpen(false)}
             >
-              Link 1
+              About
             </Link>
             <Link
-              href="#"
-              className="text-gray-700 hover:text-blue-600 transition"
+              href="#contact-section"
+              className="text-gray-700"
               onClick={() => setOpen(false)}
             >
-              Link 2
+              Contact
             </Link>
             <Link
-              href="#"
-              className="text-gray-700 hover:text-blue-600 transition"
+              href="./alexruddell.pdf" 
+              download="alexruddell.pdf"
+              className="text-gray-700"
               onClick={() => setOpen(false)}
             >
-              Link 3
+              Résumé
             </Link>
 
             <div className="flex space-x-4 pt-2">
               <a
-                href="https://github.com"
+                href="https://github.com/alex-ruddell"
                 target="_blank"
                 className="text-gray-700 hover:text-blue-600"
               >
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/alexrsruddell/"
                 target="_blank"
                 className="text-gray-700 hover:text-blue-600"
               >
