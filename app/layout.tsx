@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 
 export const metadata: Metadata = {
   title: "Alex Ruddell",
-  description: "Alex Ruddell - Personal Website",
+  description: "Alex Ruddell - Personal Website"
 };
 
 export default function RootLayout({

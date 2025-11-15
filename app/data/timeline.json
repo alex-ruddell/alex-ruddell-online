@@ -1,22 +1,30 @@
 [
     {
-        "date": "2017-02-01",
+        "date": "February 2017",
         "description": "Started studying Engineering at The Univeristy of Auckland"
     },
     {
-        "date": "2020-11-01",
+        "date": "November 2020",
         "description": "Interned at MYOB in Auckland"
     },
     {
-        "date": "2020-12-31",
+        "date": "December 2020",
         "description": "Graduated The Univeristy of Auckland with a Bachelor of Engineering (First Class Honours) in Mechatronics Engineering"
     },
     {
-        "date": "2021-03-01",
+        "date": "March 2021",
         "description": "Began working at Olympic33"
     },
     {
-        "date": "2023-01-01",
-        "description": "Opened international office"
+        "date": "April 2023",
+        "description": "Began working at Sandfield"
+    },
+    {
+        "date": "Jan 2024",
+        "description": "Began working at Intouch"
+    },
+    {
+        "date": "March 2026",
+        "description": "Moved to London"
     }
   ]
