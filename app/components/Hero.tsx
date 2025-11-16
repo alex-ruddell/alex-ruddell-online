@@ -5,32 +5,43 @@ import Section from "./Section";
 import HoverScrollButton from "./HoverScrollButton";
 
 export default function Hero() {
+  const images = [
+    "/main.jpg",
+    "/main.jpg",
+    "/main.jpg",
+  ];
 
   return (
-    <Section id="hero" className="relative flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 pt-32 pb-24">
-      <div className="max-w-xl space-y-6">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+    <Section id="hero" className="relative w-full h-screen overflow-hidden">
+      {/* Slideshow */}
+      <div className="absolute inset-0 flex animate-scroll-x">
+        {/* Duplicate the image set so the animation loops cleanly */}
+        {[...images, ...images].map((src, i) => (
+          <div key={i} className="relative w-[100vw] h-screen flex-shrink-0">
+            <Image
+              src={src}
+              alt="Hero background"
+              fill
+              className="object-cover"
+              priority={i === 0}
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-blue-200/50" />
+
+      <div className="relative z-10 flex flex-col justify-center h-full p-6">
+        <h1 className="text-5xl md:text-7xl font-bold text-black drop-shadow-lg">
           Kia Ora, I'm Alex
         </h1>
 
-        <p className="text-gray-700 text-lg leading-relaxed">
-          {/* TODO: Write a better description. */}
+        {/* TODO: Write better description. */}
+        <p className="mt-6 max-w-2xl text-lg md:text-2xl text-black/80">
           Alex Ruddell is Backend Software Engineer hailing from Auckland, New Zealand. After obtaining a Bachelor of Mechatronics Engineering at the end of
           2021, Alex transitioned into the world of software engineering.
         </p>
-      </div>
-
-      <div className="mt-10 md:mt-0 md:ml-12">
-        <div className="w-64 h-64 md:w-80 md:h-80 bg-gray-200 rounded-2xl shadow-md flex items-center justify-center text-gray-500 text-lg">
-          <Image
-            src="/main.jpg"
-            alt="Hero Image"
-            className="object-cover"
-            priority
-            width={250}
-            height={250}
-            />
-        </div>
       </div>
 
       <HoverScrollButton scrollToId="about-section" />
