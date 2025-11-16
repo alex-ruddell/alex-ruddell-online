@@ -21,7 +21,7 @@ export default function HoverScrollButton({ scrollToId} : HoverScrollButtonProps
         absolute left-1/2 bottom-6 
         transform -translate-x-1/2 
         bg-white border border-gray-300 shadow-lg 
-        p-3 rounded-full z-1000
+        p-3 rounded-full 
         hover:bg-gray-100 transition"
     >
       <ArrowDown className="w-6 h-6 text-gray-700" />
