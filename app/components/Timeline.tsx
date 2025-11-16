@@ -2,9 +2,11 @@
 
 import { useEffect, useState } from "react";
 import timelineData from "../data/timeline.json";
+import TimelineCard from "./TimelineCard"
 
 interface TimelineEvent {
   date: string;
+  title: string;
   description: string;
 }
 
@@ -21,31 +23,27 @@ export default function Timeline() {
       <div className="absolute left-1/2 top-0 h-full w-[2px] bg-gray-300 -translate-x-1/2" />
 
       <div className="flex flex-col gap-20 relative">
-        {events.map((event, index) => {
-          const isLeft = index % 2 === 0;
-
+        {events.map((event) => {
           return (
             <div
               key={event.date}
               className={`
-                relative w-full flex
-                ${isLeft ? "justify-start" : "justify-end"}
+                relative w-full flex justify-start
               `}
             >
 
               {/* Node card */}
-              <div
+              <TimelineCard 
                 className={`
-                  bg-gray-100 border border-gray-300 rounded-lg
-                  shadow-sm p-3 w-[45%]
-                  ${isLeft ? "mr-auto" : "ml-auto"}
+                bg-gray-100 border border-gray-300 rounded-lg
+                shadow-sm p-3 w-[45%] mr-auto
                 `}
+                date={event.date}
+                title={event.title}
+                description={event.description}
               >
-                <p className="text-sm text-gray-500">{event.date}</p>
-                <p className="text-sm text-gray-800 mt-2">
-                  {event.description}
-                </p>
-              </div>
+                <p>HELLO</p>
+              </TimelineCard>
 
               {/* Dot */}
               <div

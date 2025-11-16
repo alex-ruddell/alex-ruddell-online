@@ -1,30 +1,32 @@
 [
     {
         "date": "February 2017",
-        "description": "Started studying Engineering at The Univeristy of Auckland"
+        "title": "The University of Auckland",
+        "description": "Started studying Engineering at The Univeristy of Auckland. Graduated The Univeristy of Auckland with a Bachelor of Engineering (First Class Honours) in Mechatronics Engineering."
     },
     {
         "date": "November 2020",
+        "title": "MYOB",
         "description": "Interned at MYOB in Auckland"
     },
     {
-        "date": "December 2020",
-        "description": "Graduated The Univeristy of Auckland with a Bachelor of Engineering (First Class Honours) in Mechatronics Engineering"
-    },
-    {
         "date": "March 2021",
+        "title": "Olympic33",
         "description": "Began working at Olympic33"
     },
     {
         "date": "April 2023",
+        "title": "Sandfield Associated Ltd.",
         "description": "Began working at Sandfield"
     },
     {
         "date": "Jan 2024",
+        "title": "Intouch Technology Group",
         "description": "Began working at Intouch"
     },
     {
         "date": "March 2026",
+        "title": "London",
         "description": "Moved to London"
     }
   ]

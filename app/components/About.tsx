@@ -8,7 +8,7 @@ export default function About() {
   return (
     <Section
         id="about-section"
-        className="px-6 py-28"
+        className="max-w-5xl mx-auto px-6 py-28"
     >
       <div className="flex-1 xl:flex justify-between">
         <div className="min-w-[50%]">
@@ -17,7 +17,8 @@ export default function About() {
             Some about content
           </p>
         </div>
-        <Timeline />
+        {/* TODO: Get this timeline looking a bit better. */}
+        {/* <Timeline /> */}
       </div>
       
       <HoverScrollButton scrollToId="contact-section" />
