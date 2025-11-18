@@ -1,0 +1,50 @@
+[
+  {
+    "hasPicture": true,
+    "title": "test",
+    "description": "test",
+    "chipText": "project",
+    "link": "",
+    "linkText": ""
+  },
+  {
+    "hasPicture": false,
+    "title": "test",
+    "description": "test",
+    "chipText": "project",
+    "link": "",
+    "linkText": ""
+  },
+  {
+    "hasPicture": false,
+    "title": "Personal Website",
+    "description": "test",
+    "chipText": "project",
+    "link": "https://github.com/alex-ruddell/alex-ruddell-online",
+    "linkText": "View alex-ruddell-online on GitHub"
+  },
+  {
+    "hasPicture": false,
+    "title": "test",
+    "description": "test",
+    "chipText": "project",
+    "link": "",
+    "linkText": ""
+  },
+  {
+    "hasPicture": false,
+    "title": "test",
+    "description": "test",
+    "chipText": "project",
+    "link": "",
+    "linkText": ""
+  },
+  {
+    "hasPicture": false,
+    "title": "test",
+    "description": "test",
+    "chipText": "project",
+    "link": "",
+    "linkText": ""
+  }
+]

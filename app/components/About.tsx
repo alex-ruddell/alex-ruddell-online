@@ -1,8 +1,6 @@
 "use client"
 
-import Section from "./Section"
-import HoverScrollButton from "./HoverScrollButton"
-import Timeline from "./Timeline"
+import Section from "./common/Section"
 
 export default function About() {
   return (
@@ -36,8 +34,13 @@ export default function About() {
         {/* TODO: Get this timeline looking a bit better. */}
         {/* <Timeline /> */}
       </div>
-      
-      <HoverScrollButton scrollToId="contact-section" />
+
+      <br />
+
+      <h2 className="text-2xl font-bold mb-4">Get in touch!</h2>
+      <p className="text-gray-700">
+        If you want to get in contact with me, don't hesitate to reach out!
+      </p>
     </Section>
   )
 }

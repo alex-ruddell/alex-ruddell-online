@@ -36,3 +36,21 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Custom vertical scrolling animation */
+@keyframes scroll-vertical {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-scroll-vertical {
+  animation: scroll-vertical 500s linear infinite;
+}
+
+.paused {
+  animation-play-state: paused !important;
+}
+/* =================================== */

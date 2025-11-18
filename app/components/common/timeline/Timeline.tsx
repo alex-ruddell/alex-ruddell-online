@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import timelineData from "../data/timeline.json";
+import timelineData from "../../../data/timeline.json";
 import TimelineCard from "./TimelineCard"
 
 interface TimelineEvent {
@@ -40,10 +40,7 @@ export default function Timeline() {
                 `}
                 date={event.date}
                 title={event.title}
-                description={event.description}
-              >
-                <p>HELLO</p>
-              </TimelineCard>
+                description={event.description} />
 
               {/* Dot */}
               <div

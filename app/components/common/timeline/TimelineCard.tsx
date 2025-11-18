@@ -3,14 +3,13 @@
 import { useState } from "react";
 
 interface TimelineCardProps {
-  children: React.ReactNode;
   date: string;
   title: string;
   description: string;
   className?: string;
 }
 
-export default function TimelineCard({ children, date, title, description, className = ""}: TimelineCardProps) {
+export default function TimelineCard({ date, title, description, className = ""}: TimelineCardProps) {
   const [hover, setHover] = useState(false);
 
   return (
