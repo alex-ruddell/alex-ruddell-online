@@ -47,10 +47,30 @@ html {
 }
 
 .animate-scroll-vertical {
-  animation: scroll-vertical 500s linear infinite;
+  animation: scroll-vertical 125s linear infinite;
 }
 
 .paused {
   animation-play-state: paused !important;
+}
+/* =================================== */
+
+/* Link Underline on hover */
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#000, #000)
+}
+
+.link-underline:hover {
+  background-size: 100% 1px;
+  background-position: 0 100%
 }
 /* =================================== */

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Section from "./common/Section";
 import HoverScrollButton from "./common/HoverScrollButton";
 import GoogleDefinition from "./common/GoogleDefinition";
@@ -19,17 +18,6 @@ export default function Hero() {
       <div className="w-[30%]">
         <ScrollingGallery />
       </div>
-      {/* <div className="mt-10 md:mt-0 md:ml-12">
-        <div className="relative w-64 h-64 md:w-80 md:h-80 bg-gray-200 rounded-2xl shadow-md overflow-hidden">
-          <Image
-            src="/main.jpg"
-            alt="Hero Image"
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
-      </div> */}
 
       { /* TODO: Chips for links to external sites, github, etc, remove need for nav bar? */ }
 

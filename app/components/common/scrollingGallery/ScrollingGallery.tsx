@@ -3,13 +3,15 @@
 import HoverCard from "./HoverCard";
 import { useState, useEffect } from "react";
 import galleryData from "../../../data/gallery.json"
+
 interface ScrollingGalleryItem {
-  title: string;
-  description: string;
-  chipText: string;
-  link: string;
-  linkText: string;
-  hasPicture: boolean;
+  title?: string;
+  description?: string;
+  chipText?: string;
+  link?: string;
+  linkText?: string;
+  imagePath?: string;
+  imageAlt?: string;
 }
 
 export default function ScrollingGallery() {
@@ -36,29 +38,35 @@ export default function ScrollingGallery() {
             <HoverCard
               key={idx}
               className={`
-                bg-white mt-8 h-42 w-full flex items-center justify-center 
+                bg-white mt-8 w-full flex items-center justify-center overflow-hidden
                 text-gray-700 text-xl rounded-lg border border-gray-200
               `}
+              overlayTextOnHover={item.imageAlt}
             >
-              {item.hasPicture 
+              {item.imagePath 
                 ? 
-                <p>has picture</p> 
+                <img
+                  src={item.imagePath}
+                  alt={item.imageAlt}
+                  className="object-cover rounded-lg p-1" />
                 :
                 <div className="flex flex-col justify-between w-full h-full p-4">
                   {item.title && 
-                    <p className="text-xl md:text-xl font-medium leading-tight focus:outline-none">
+                    <p className="text-xl md:text-lg pt-0.25 leading-tight focus:outline-none">
                       {item.title}
                     </p>
                   }
                   {item.description && 
-                    <p className="text-base text-gray-900">
+                    <p className="text-sm text-gray-900 mt-2">
                       {item.description}
                     </p>
                   }
                   {item.link && item.linkText && 
-                    <a className="mt-2 text-sm text-gray-600 italic" href={item.link} target="_blank">
-                      {item.linkText}
-                    </a>
+                    <div> {/* div to encompass underline */}
+                      <a className="link-underline link-underline-black mt-2 text-sm text-gray-600 italic" href={item.link} target="_blank">
+                        {item.linkText}
+                      </a>
+                    </div>
                   }
                   {item.chipText && 
                     <span className="absolute top-4 right-4 text-xs text-gray-700 bg-gray-100 border border-gray-200 px-2 py-1 rounded-md">

@@ -1,50 +1,57 @@
 [
   {
-    "hasPicture": true,
-    "title": "test",
-    "description": "test",
+    "imagePath": "/france.jpg",
+    "imageAlt": "2025 trip to France"
+  },
+  {
+    "title": "spotify-overlay",
+    "description": "Swift/SwiftUI integration with Spotify to enhance personal workflow",
+    "chipText": "project",
+    "link": "https://github.com/alex-ruddell/spotify-overlay",
+    "linkText": "View spotify-overlay on Github"
+  },
+  {
+    "imagePath": "/japan.jpeg",
+    "imageAlt": "2023 trip to Japan"
+  },
+  {
+    "title": "TODO",
+    "description": "TODO",
     "chipText": "project",
     "link": "",
     "linkText": ""
   },
   {
-    "hasPicture": false,
-    "title": "test",
-    "description": "test",
-    "chipText": "project",
-    "link": "",
-    "linkText": ""
+    "imagePath": "/croatia.jpeg",
+    "imageAlt": "2025 trip to Croatia"
   },
   {
-    "hasPicture": false,
-    "title": "Personal Website",
-    "description": "test",
+    "title": "in/alexrsruddell",
+    "description": "",
+    "chipText": "profile",
+    "link": "https://www.linkedin.com/in/alexrsruddell/",
+    "linkText": "Connect with me on LinkedIn"
+  },
+  {
+    "imagePath": "/snowboarding.jpeg",
+    "imageAlt": "Snowboarding in Japan"
+  },
+  {
+    "title": "alex-ruddell-online",
+    "description": "Personal Website written in React, NextJS, Tailwind",
     "chipText": "project",
     "link": "https://github.com/alex-ruddell/alex-ruddell-online",
     "linkText": "View alex-ruddell-online on GitHub"
   },
   {
-    "hasPicture": false,
-    "title": "test",
-    "description": "test",
-    "chipText": "project",
-    "link": "",
-    "linkText": ""
+    "imagePath": "/spain.jpeg",
+    "imageAlt": "2025 trip to Spain"
   },
   {
-    "hasPicture": false,
-    "title": "test",
-    "description": "test",
+    "title": "generalized-ai-dashboard",
+    "description": "TODO: Make public. Azure AI, Semantic Kernel",
     "chipText": "project",
-    "link": "",
-    "linkText": ""
-  },
-  {
-    "hasPicture": false,
-    "title": "test",
-    "description": "test",
-    "chipText": "project",
-    "link": "",
-    "linkText": ""
+    "link": "TODO",
+    "linkText": "TODO"
   }
 ]
