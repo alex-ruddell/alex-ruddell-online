@@ -1,6 +1,7 @@
 "use client"
 
 import Section from "./common/Section"
+import HoverScrollButton from "./common/HoverScrollButton"
 
 export default function About() {
   return (
@@ -41,6 +42,8 @@ export default function About() {
       <p className="text-gray-700">
         If you want to get in contact with me, don't hesitate to reach out!
       </p>
+
+      <HoverScrollButton scrollToId="hero" flip />
     </Section>
   )
 }

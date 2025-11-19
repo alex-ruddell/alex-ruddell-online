@@ -46,8 +46,24 @@ html {
   }
 }
 
-.animate-scroll-vertical {
-  animation: scroll-vertical 125s linear infinite;
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-responsive {
+  animation: scroll-horizontal 10s linear infinite;
+}
+
+/* At md and above: switch to vertical scrolling */
+@media (min-width: 768px) {
+  .animate-scroll-responsive {
+    animation: scroll-vertical 125s linear infinite;
+  }
 }
 
 .paused {

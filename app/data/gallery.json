@@ -1,7 +1,7 @@
 [
   {
     "imagePath": "/france.jpg",
-    "imageAlt": "2025 trip to France"
+    "imageAlt": "France, 2025"
   },
   {
     "title": "spotify-overlay",
@@ -12,29 +12,7 @@
   },
   {
     "imagePath": "/japan.jpeg",
-    "imageAlt": "2023 trip to Japan"
-  },
-  {
-    "title": "TODO",
-    "description": "TODO",
-    "chipText": "project",
-    "link": "",
-    "linkText": ""
-  },
-  {
-    "imagePath": "/croatia.jpeg",
-    "imageAlt": "2025 trip to Croatia"
-  },
-  {
-    "title": "in/alexrsruddell",
-    "description": "",
-    "chipText": "profile",
-    "link": "https://www.linkedin.com/in/alexrsruddell/",
-    "linkText": "Connect with me on LinkedIn"
-  },
-  {
-    "imagePath": "/snowboarding.jpeg",
-    "imageAlt": "Snowboarding in Japan"
+    "imageAlt": "Japan, 2024"
   },
   {
     "title": "alex-ruddell-online",
@@ -44,14 +22,36 @@
     "linkText": "View alex-ruddell-online on GitHub"
   },
   {
-    "imagePath": "/spain.jpeg",
-    "imageAlt": "2025 trip to Spain"
+    "imagePath": "/croatia.jpeg",
+    "imageAlt": "Croatia, 2025"
   },
   {
-    "title": "generalized-ai-dashboard",
-    "description": "TODO: Make public. Azure AI, Semantic Kernel",
+    "title": "financial-dashboard",
+    "description": "Powered by Semantic Kernel and Azure AI, made for small business financial risk management",
     "chipText": "project",
-    "link": "TODO",
-    "linkText": "TODO"
+    "link": "https://github.com/alex-ruddell/",
+    "linkText": "Coming soon..."
+  },
+  {
+    "imagePath": "/snowboarding.jpeg",
+    "imageAlt": "Japan, 2023"
+  },
+  {
+    "title": "alex-ruddell",
+    "description": "",
+    "chipText": "profile",
+    "link": "https://github.com/alex-ruddell/",
+    "linkText": "Find me on Github"
+  },
+  {
+    "imagePath": "/spain.jpeg",
+    "imageAlt": "Spain, 2025"
+  },
+  {
+    "title": "in/alexrsruddell",
+    "description": "",
+    "chipText": "profile",
+    "link": "https://www.linkedin.com/in/alexrsruddell/",
+    "linkText": "Connect with me on LinkedIn"
   }
 ]
