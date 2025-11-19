@@ -71,7 +71,7 @@ export default function ScrollingGallery() {
                   {item.link && item.linkText && (
                     <div>
                       <a
-                        className="link-underline link-underline-black mt-2 text-sm text-gray-600 italic"
+                        className="link-underline mt-2 text-sm text-gray-600 italic"
                         href={item.link}
                         target="_blank"
                       >
