@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col bg-white">
-        <Navbar />
+        {/* <Navbar /> */}
         <main className="flex-1 snap-y snap-mandatory h-screen overflow-y-scroll">
           {children}
         </main>

@@ -14,7 +14,7 @@ export default function Navbar() {
           <Link href="#hero">Alex Ruddell</Link>
         </div>
 
-        <div className="hidden md:flex items-center space-x-6">
+        <div className="hidden lg:flex items-center space-x-6">
           <Link 
             href="#about-section" 
             className="text-gray-700"
@@ -53,7 +53,7 @@ export default function Navbar() {
         </div>
 
         <button
-          className="md:hidden text-gray-700"
+          className="lg:hidden text-gray-700"
           onClick={() => setOpen(!open)}
           aria-label="Toggle Menu"
         >
@@ -62,7 +62,7 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="md:hidden bg-white border-t border-gray-200 shadow-inner">
+        <div className="lg:hidden bg-white border-t border-gray-200 shadow-inner">
           <div className="flex flex-col px-6 py-4 space-y-4">
             <Link
               href="#about-section"

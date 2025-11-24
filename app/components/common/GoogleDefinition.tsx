@@ -2,11 +2,11 @@
 
 export default function GoogleDefinition() {
   return (
-    <article className="max-w-3xl w-full bg-white border border-gray-200 shadow-sm rounded-xl p-6 md:p-8 text-gray-900">
-      <header className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-0">
+    <article className="max-w-3xl w-full bg-white border border-gray-200 shadow-sm rounded-xl p-6 lg:p-8 text-gray-900">
+      <header className="flex flex-row items-start justify-between gap-0">
         <div className="flex-1">
           <div className="flex items-baseline gap-3">
-            <h1 className="text-3xl md:text-4xl font-medium leading-tight focus:outline-none">
+            <h1 className="text-3xl lg:text-4xl font-medium leading-tight focus:outline-none">
               Alex Ruddell
             </h1>
 
@@ -78,12 +78,12 @@ export default function GoogleDefinition() {
         </div>
       </section>
 
-      <footer className="mt-6 border-t border-gray-100 pt-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <footer className="mt-6 border-t border-gray-100 pt-4 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
         <div className="flex-1">
           <div className="flex items-center flex-wrap gap-2">
             <span className="text-sm text-gray-500 mr-2">Synonyms:</span>
             <div className="text-sm text-gray-700">
-              chill guy, funny jokes
+              snowboarder, runner, outdoor enthusiast
             </div>
           </div>
         </div>

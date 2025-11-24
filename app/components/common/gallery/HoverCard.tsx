@@ -36,7 +36,7 @@ export default function HoverCard({ children, className = "", overlayTextOnHover
             ${hover ? "opacity-75 scale-120 z-60": "scale-100"}
           `}
         >
-          <p className="text-xl md:text-lg pt-0.25 leading-tight focus:outline-none">
+          <p className="text-xl lg:text-lg pt-0.25 leading-tight focus:outline-none">
             {overlayTextOnHover}
           </p>
         </div>

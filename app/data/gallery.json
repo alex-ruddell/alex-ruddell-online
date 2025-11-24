@@ -1,57 +1,67 @@
 [
   {
     "imagePath": "/france.jpg",
-    "imageAlt": "France, 2025"
+    "imageAlt": "France, 2025",
+    "displayMobile": true
   },
   {
     "title": "spotify-overlay",
     "description": "Swift/SwiftUI integration with Spotify to enhance personal workflow",
     "chipText": "project",
     "link": "https://github.com/alex-ruddell/spotify-overlay",
-    "linkText": "View spotify-overlay on Github"
+    "linkText": "View spotify-overlay on Github",
+    "displayMobile": true
   },
   {
     "imagePath": "/japan.jpeg",
-    "imageAlt": "Japan, 2024"
+    "imageAlt": "Japan, 2024",
+    "displayMobile": true
   },
   {
     "title": "alex-ruddell-online",
     "description": "Personal Website written in React, NextJS, Tailwind",
     "chipText": "project",
     "link": "https://github.com/alex-ruddell/alex-ruddell-online",
-    "linkText": "View alex-ruddell-online on GitHub"
+    "linkText": "View alex-ruddell-online on GitHub",
+    "displayMobile": false
   },
   {
     "imagePath": "/croatia.jpeg",
-    "imageAlt": "Croatia, 2025"
+    "imageAlt": "Croatia, 2025",
+    "displayMobile": false
   },
   {
     "title": "financial-dashboard",
     "description": "Powered by Semantic Kernel and Azure AI, made for small business financial risk management",
     "chipText": "project",
     "link": "https://github.com/alex-ruddell/",
-    "linkText": "Coming soon..."
+    "linkText": "Coming soon...",
+    "displayMobile": true
   },
   {
     "imagePath": "/snowboarding.jpeg",
-    "imageAlt": "Japan, 2023"
+    "imageAlt": "Japan, 2023",
+    "displayMobile": true
   },
   {
     "title": "alex-ruddell",
     "description": "",
     "chipText": "profile",
     "link": "https://github.com/alex-ruddell/",
-    "linkText": "Find me on Github"
+    "linkText": "Find me on Github",
+    "displayMobile": true
   },
   {
     "imagePath": "/spain.jpeg",
-    "imageAlt": "Spain, 2025"
+    "imageAlt": "Spain, 2025",
+    "displayMobile": false
   },
   {
     "title": "in/alexrsruddell",
     "description": "",
     "chipText": "profile",
     "link": "https://www.linkedin.com/in/alexrsruddell/",
-    "linkText": "Connect with me on LinkedIn"
+    "linkText": "Connect with me on LinkedIn",
+    "displayMobile": true
   }
 ]

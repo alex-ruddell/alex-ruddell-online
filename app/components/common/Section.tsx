@@ -9,7 +9,7 @@ interface SectionProps {
 }
 
 export default function Section({ id, className, children }: SectionProps) {
-  const baseClasses = "snap-start min-h-screen relative";
+  const baseClasses = "snap-start relative mx-auto";
   
   return (
     <section
