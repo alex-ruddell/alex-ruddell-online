@@ -1,7 +1,7 @@
 "use client"
 
 import Section from "./common/Section"
-import ChipList from "./common/chip/ContactChipList"
+import ContactChipList from "./common/chip/ContactChipList"
 
 export default function About() {
   
@@ -30,7 +30,7 @@ export default function About() {
               </p>
 
               <div className="flex justify-center">
-                <ChipList />
+                <ContactChipList />
               </div>
             </div>
           </div>

@@ -2,12 +2,12 @@ import React from "react";
 import Link from "next/link";
 
 export type ChipProps = {
-  label: string;
   href: string;
   className?: string;
+  children?: React.ReactNode
 };
 
-const Chip: React.FC<ChipProps> = ({ label, href, className }) => {
+const Chip: React.FC<ChipProps> = ({ href, className, children }) => {
   return (
     <Link
       href={href}
@@ -25,7 +25,7 @@ const Chip: React.FC<ChipProps> = ({ label, href, className }) => {
         `
       }
     >
-      {label}
+      {children}
     </Link>
   );
 };
