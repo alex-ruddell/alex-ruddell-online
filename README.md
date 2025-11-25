@@ -19,4 +19,4 @@ To run the project, follow the below instructions:
 
 ## Thanks!
 
-Thanks for stopping by! Don't hesitate to reach out to me at [imalexruddell@gmail.com](mailto:imalexruddell@gmail.com), or on LinkedIn, if you want to chat about anything at all!
+Thanks for stopping by! Don't hesitate to reach out to me at [in/alexrsruddell](https://www.linkedin.com/in/alexrsruddell/) on LinkedIn if you want to chat about anything at all!
