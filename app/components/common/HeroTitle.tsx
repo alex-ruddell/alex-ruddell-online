@@ -6,10 +6,10 @@ export default function HeroTitle() {
   return (
     <div className="
       w-full flex items-center justify-center
-      lg:justify-start lg:pb-16">
+      lg:justify-start lg:pb-16 lg:mt-4">
       <h1 className="text-4xl lg:text-6xl font-extrabold text-gray-900 leading-tight text-center lg:text-start">
         Kia Ora, I'm
-        <span className="relative bg-yellow-300 px-2 py-1 rounded">
+        <span className="relative bg-yellow-300 ms-3 px-2 py-1 rounded">
           Alex
         
           <MousePointer className="hidden lg:block absolute text-gray-700 w-8 h-8 -right-5 -bottom-5 rotate-12 drop-shadow z-50" />
